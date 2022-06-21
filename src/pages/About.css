@@ -27,13 +27,18 @@
 
 .name_title {
   font-size: 48px;
-  color: black;
+  color: blue;
   text-align: left;
   padding-bottom: 20px;
 }
 
 .brief_description {
   text-align: left;
+  color: darkorchid
+}
+.brief_description_pt_2{
+  text-align: left;
+  color: green
 }
 
 .profile_image {
