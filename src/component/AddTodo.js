@@ -65,6 +65,7 @@ class AddTodo extends Component {
             value={this.state.due}
             onChange={this.handleDueDate}
             renderInput={(params) => <TextField {...params} />}
+            onSubmit={null}
          />
        </LocalizationProvider>
         <Button
