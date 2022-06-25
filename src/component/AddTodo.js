@@ -53,13 +53,13 @@ class AddTodo extends Component {
       // an OnClick event.
       // 4. The value of the text field also should reflect the local state of this component.
       <div>
-        <TextField
+        <TextField 
           label="Add New Item"
           variant="outlined"
           onChange={this.handleChange}
           value={this.state.content}
         />
-        <LocalizationProvider dateAdapter={AdapterDateFns}>         
+        <LocalizationProvider dateAdapter={AdapterDateFns} onSubmit={this.due = null}>         
           <DesktopDatePicker
             id="new-item-date"
             label="Due Date"
@@ -68,7 +68,7 @@ class AddTodo extends Component {
             renderInput={(params) => <TextField {...params} />}
          />
        </LocalizationProvider>
-        <Button
+        <Button 
           style={{ marginLeft: "10px" }}
           onClick={this.handleSubmit}
           variant="contained"

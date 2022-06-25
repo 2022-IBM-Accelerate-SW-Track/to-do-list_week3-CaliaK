@@ -19,7 +19,7 @@ export default class About extends Component {
     <div className="split right">
       <div className="centered">
         <div className="name_title">Calia Kugler</div>
-        <div className="brief_description"> Hi! I am an incoming softmore double majoring in math and computer science, with a spanish minor.
+        <div className="brief_description"> Hi! I am an incoming junior double majoring in math and computer science, with a spanish minor.
         </div>
         <div className="brief_description_pt_2"> As a fun fact, during my free time I love ballroom dancing! I am even on my schools ballroom dacning team!
         </div>
